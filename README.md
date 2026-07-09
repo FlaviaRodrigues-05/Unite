@@ -135,7 +135,15 @@ Dashboard
 
 ## 👩‍💻 Developed By
 
+**Christina Narlely**
+
+Bachelor of Computer Science Student
+
 **Flavia Rodriguez**
+
+Bachelor of Computer Science Student
+
+**Daniya Shaikh**
 
 Bachelor of Computer Science Student
 
