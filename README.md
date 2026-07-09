@@ -1,16 +1,146 @@
-# unite_fp_new
+# 🚀 Unite
 
-A new Flutter project.
+**Unite** is a Flutter and Firebase-powered club and committee management application designed to simplify communication, collaboration, and event management within educational institutions.
 
-## Getting Started
+The platform provides a centralized workspace where administrators can manage clubs, organize events, assign tasks, publish announcements, and maintain member records, while members stay informed and engaged through a modern, intuitive interface.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 👤 Authentication
+- Secure Firebase Authentication
+- Separate Admin and Member roles
+- Create or Join a Club using a unique Club Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🏛 Club Management
+- Create and manage clubs or committees
+- Unique Club Code generation
+- Member Directory for each club
+
+### 📅 Event Management
+- Schedule upcoming events
+- View event details
+- Club-specific event listings
+
+### 📢 Announcements
+- Post announcements for members
+- Real-time announcement updates
+- Club-specific communication
+
+### ✅ Task Management
+- Weekly task assignments
+- Task tracking
+- Progress monitoring
+
+### 👥 Member Directory
+- View members belonging to the same club
+- Search members by name
+- Display user roles
+
+### 🎨 Modern UI
+- Custom Flutter interface
+- Responsive layouts
+- Soft, minimal design inspired by modern productivity apps
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Flutter | Cross-platform UI |
+| Dart | Programming Language |
+| Firebase Authentication | User Authentication |
+| Cloud Firestore | Real-time Database |
+| Android Studio | Development Environment |
+| Git & GitHub | Version Control |
+
+---
+
+## 📂 Project Structure
+
+```
+lib/
+│
+├── widgets/
+├── screens/
+├── assets/
+│   ├── icons/
+│   ├── vectors/
+│   └── images/
+│
+├── firebase_options.dart
+└── main.dart
+```
+
+---
+
+## 🔐 Authentication Flow
+
+```
+User
+ │
+ ▼
+Login / Signup
+ │
+ ▼
+Choose Role
+ │
+ ├── Create Club (Admin)
+ │
+ └── Join Club (Member)
+ │
+ ▼
+Dashboard
+```
+
+---
+
+## 📱 Application Modules
+
+- Dashboard
+- Authentication
+- Club Management
+- Events
+- Announcements
+- Weekly Tasks
+- Member Directory
+- Settings
+
+---
+
+## 🎯 Objectives
+
+- Centralize club and committee management.
+- Improve communication between administrators and members.
+- Simplify event planning and participation.
+- Encourage student engagement.
+- Reduce manual record management.
+
+---
+
+## 🔮 Future Enhancements
+
+- AI-powered chatbot assistant
+- Attendance tracking
+- QR Code event check-in
+- Push notifications
+- Calendar integration
+- File sharing
+- Real-time chat
+- Analytics Dashboard
+
+---
+
+## 👩‍💻 Developed By
+
+**Flavia Rodriguez**
+
+Bachelor of Computer Science Student
+
+---
+
+## 📄 License
+
+This project is intended for educational and portfolio purposes.
